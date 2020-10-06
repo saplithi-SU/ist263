@@ -1,0 +1,16 @@
+body{font-family: "Arial Black", Gadget, sans-serif;}
+body{color: #c0e0f4;}
+h1,h2{color:palevioletred;}
+p{color: lightpink;}
+.evenrow{background-color: purple}  
+
+h1{font-size: 2em;}
+h2{font-size:.5em;} 
+h3{font-size:1em;}
+
+nav {background-color:#EBE9FE}
+nav a{color: #d8d8d8;}
+nav a:hover{background-color:#FFFA05}
+nav {property:10px}
+nav {margin-bottom: 30px}
+
