@@ -7,25 +7,51 @@
 <link rel="stylesheet" href="styless.css">
 </head>
 <style>
-    .div1{flex: 1;order: 1;}
-    .div2{flex: 2;order: 2;}
+    .clear{clear: both;}
+    .info1{display: flex;}
+    .info1{padding: 20px;margin: 10px;background-color: palevioletred;border-radius: 1em;}
+    .infoA{flex: 1; order: 1;}
+    .infoEL{flex: 1;order: 2;}
+
+    
+    .info2{display: flex;}
+    .info2{padding: 20px;margin: 10px;background-color:palegreen; border-radius: 1em;}
+    .infoM{flex: 2;order: 2;}
+    .infoF{flex: 2;order: 1;}
+
+
+    
 </style>
+
 <body>
         <nav>
         <a href="index.html">Bio</a>
         <a href="contact2.html">contact</a>
         <a href="skills2.html">Skills</a>
         </nav>
-    <div1><p>My current address is 343, Hinds Hall, Syracuse, NY 13210.
-    <br> 
-    <a href="mailto:saplithi@syr.edu"> Steph Plithides Email</a><br>
+    
+    <div class="info1">
+    <div class="infoA">
+    <p>My current address is 343, Hinds Hall, Syracuse, NY 13210.</p>
+    </div> 
+    
+    <div class="infoEL">
+    <a href="mailto:saplithi@syr.edu"> Steph Plithides Email</a>
     <a href="http://www.linkedin.com/in/splithides">My LinkedIn Page</a>
-    <img src="../images/LinkedIn-Logos/logo-sized.png" ="My LinkedIn Page">
-    <br>
+    <img src="../images/LinkedIn-Logos/logo-sized.png"="My LinkedIn Page">
+    <div class="clear"></div>
+    </div>
+    </div>  
+    
+
+
+    <div class="info2">
+    <div class="infoM">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.15070803253!2d-76.1358541497683!3d43.03826047904483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fb431fe7f%3A0xcec3fe2ca38dd861!2sAdministrative%20Services%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1599501619938!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div1>
-    <br>
-    <div2><form action="mailto:saplithi"mehtod="post">
+    </div>
+
+    <div class="infoF">
+        <form action="mailto:saplithi"mehtod="post">
         <label>First Name</label>
         <input type="text"firstname id="firstname">
 
@@ -42,8 +68,9 @@
         </textarea><br>
 
         <input type="submit" value="send form">
-    </div2>  
+        </form>
+    </div> 
+    </div>
 
-</form>
 </body>
 </html>
