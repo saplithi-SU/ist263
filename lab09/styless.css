@@ -1,15 +1,7 @@
 
 @media only screen and (max-width:600){
-    body{font-family: "Arial Black", Gadget, sans-serif;}
-    body{color: blue;}
-    h1,h2{color:palevioletred;}
-    p{color: lightpink;}
-    .evenrow{background-color: purple}  
-
-
-    h1{font-size: 3em;}
-    h2{font-size: 1.5em;} 
-    h3{font-size: 1.5em;}
+    nav a {width: 100%;
+    display: block;}
     
     
 }
@@ -19,3 +11,11 @@ nav a:hover{background-color:#FFFA05}
 nav {padding:10px}
 nav {margin-bottom: 30px}
 nav {margin-bottom: 30px} 
+body{color: blue;}
+h1,h2{color:palevioletred;}
+p{color: lightpink;}
+.evenrow{background-color: purple}  
+h1{font-size: 3em;}
+h2{font-size: 1.5em;} 
+h3{font-size: 1.5em;}
+body{font-family: "Arial Black", Gadget, sans-serif;}
