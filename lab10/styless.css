@@ -4,13 +4,13 @@
     display: block;}  
 }
 
-nav {background-color:#7368d4}
-nav a{color:black;}
+nav {background-color:#3F05C7}
+nav a{color:black} 
 nav a:hover{background-color:#FFFA05}
 nav {padding:10px}
 nav {margin-bottom: 30px}
 nav {margin-bottom: 30px} 
-body{color: blue;}
+body{color: #F7F01D}
 h1,h2{color: white;}
 p{color: lightpink;}
 .evenrow{background-color: purple}  
