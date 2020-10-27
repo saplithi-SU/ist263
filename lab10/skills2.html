@@ -7,9 +7,21 @@
     <style> table,th,td{border:1px solid black;} </style>
     <link rel="stylesheet" href="styless.css">
     <h1 class="special">Lorem Ipsum</h1>
+<style>
+     #skip-to-content {
+            position: absolute; 
+            left: -999px;  /* positions skip to content off screen */
+            background-color: white;
+            border: 1px solid gray;
+            }
+        #skip-to-content:focus {position: absolute; left: 10px;}
+        /* pseudo class that moves skip to content back on screen */
+    </style>
+</style>
 </head>
 <body>
 <section>
+    <a id="skip-to-content" href="#content">Skip to Content</a>
     <nav>
         <a href="index.html" tabindex="1">Bio</a>
         <a href="contact2.html"tabindex="2">Contact</a>
