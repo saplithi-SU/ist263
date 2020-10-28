@@ -10,10 +10,10 @@ nav a:hover{background-color:#FFFA05}
 nav {padding:10px}
 nav {margin-bottom: 30px}
 nav {margin-bottom: 30px} 
-title{font-size: 3mm;color: palevioletred;}
+title{font-size: 3mm;color:pink}
 body{color: rgb(235, 202, 121)}
-h1,h2{color: white;}
-p{color: palevioletred;}
+h1,h2{color: palevioletred;}
+p{color: [palevioletred];}
 .evenrow{background-color: purple}  
 h1{font-size: 3em;}
 h2{font-size: 1.5em;} 
