@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact</title>
+<link rel="stylesheet" href="styless.css">
+<style>
+    .clear{clear: both;}
+    .info1{display: flex;}
+    .info1{padding: 20px;margin: 10px;background-color: lavender ;border-radius: 1em;}
+    .infoA{flex: 1; order: 1;}
+    .infoEL{flex: 1;order: 2;}
+
+    
+    .info2{display: flex;}
+    .info2{padding: 20px;margin: 10px;background-color:#F0FD77; border-radius: 1em;}
+    .infoM{flex: 2;order: 2;}
+    .infoF{flex: 2;order: 1;} 
+    .info2{flex-wrap: wrap;}
+    #skip-to-content {
+            position: absolute; 
+            left: -999px;  /* positions skip to content off screen */
+            background-color: white;
+            border: 1px solid gray;
+            }
+        #skip-to-content:focus {position: absolute; left: 10px;}
+        /* pseudo class that moves skip to content back on screen */
+    </style>
+</style>
+</head>
+
+
+<body>
+<section>
+     <h1> Contact</h1>
+            <nav>
+                <a href="index.html">Bio</a>
+                <a href="contact2.html"> Contact</a>
+                <a href="skills2.html">Skills</a>
+            </nav>
+        
+        <div class="info1">
+        <div class="infoA">
+        <a id="skip-to-content" href="#content">Skip to Content</a>
+        <a id="content"></a>
+        <p>My current address is 343, Hinds Hall, Syracuse, NY 13210.</p>
+        </div> 
+        
+        <div class="infoEL">
+            <a href="mailto:saplithi@syr.edu" style="color:#3F05C7")>
+                Steph Plithides Email
+                </a>
+        <a href='http://www.linkedin.com/in/splithides'style="color:darkmagenta">>My LinkedIn Page</a>
+        <img src=../images../LinkedIn-Logos../LI-Logo.png alt ="My LinkedIn Page">
+        <div class="clear"></div>
+        </div>
+        </div>  
+        
+
+
+        <div class="info2">
+        <div class="infoM">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.15070803253!2d-76.1358541497683!3d43.03826047904483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fb431fe7f%3A0xcec3fe2ca38dd861!2sAdministrative%20Services%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1599501619938!5m2!1sen!2sus" alt ="map" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div class="infoF">
+            <form action="mailto:saplithi" method="post">
+        
+            <label for="adult"> Are you an Adult? </label>
+            <input type= "checkbox" id="adult" name="adult" value="Yes"><br>
+            
+            <label for="collegestudent"> Are you a college student </label>
+            <input type= "checkbox" id="collegestudent" name="collegestudent" value="Yes"><br>
+
+
+            <label for="comments">comments:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="40">
+        Enter any other comments you may have to make this page more useful
+            </textarea><br>
+
+            <input type="submit" value="send form">
+            </form>
+        </div> 
+        </div>
+</section>
+</body>
+</html>
