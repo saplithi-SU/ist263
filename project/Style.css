@@ -79,11 +79,7 @@ p{color: lightpink;font-size: medium;}
 
 
 @media only screen and (max-width:600px){
-  img {width: 100%;
+  img,.navbar,.subnav,iframe {width: 100%;
   display: block;}  
 
-}
-@media only screen and (max-width:600px){
-  .navbar,.subnav {width: 100%;
-  display: block;}  
 }
